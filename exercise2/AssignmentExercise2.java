@@ -53,6 +53,8 @@ public class AssignmentExercise2 {
         
         if(number > Integer.MAX_VALUE){
             number = Integer.MAX_VALUE;
+        } else if(number < Integer.MIN_VALUE){
+            number = Integer.MIN_VALUE;
         }
         
         return (int) number;
